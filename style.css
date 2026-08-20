@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+*{
+    background-color: #141414;
+
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 4s;  
+
+}
+
+.wrapper:hover {
+    background-color: hsl(0, 0%, 20%);
+}
+
+
+.card{
+    margin: 100px;
+    padding-top: 50px;
+    height: 700px;
+    width: 40%;
+    background-color: #1f1f1f;
+ 
+    border-radius: 10px;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+}
+
+.profile-img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.profile-name{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: transparent;
+}
+
+.location{
+    background-color: transparent;
+    color: #c5f82a;
+    font-weight: bold;
+    font-size: large;
+}
+
+.skills{
+  
+    background-color: transparent;
+    color:  hsl(0, 0%, 100%);
+}
+
+.social{
+    line-height: 30px;
+    width: 80%;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    text-align: center;
+
+    padding: 10px;
+
+    background-color: transparent;
+    background-color: hsl(0, 0%, 20%);
+    font-weight: bold;
+    color: white; 
+    transition: width 2s;
+    transition: width 2s, height 4s, background-color 1s;   
+}
+
+
+.skills a{
+    text-decoration: none;
+    background-color: transparent;
+    color: white;
+}
+
+.social a{
+    text-decoration: none;
+    background-color: transparent;
+    color: white;
+    
+}
+
+.social:hover{
+    background-color: #c5f82a;
+    width: 90%;
+}
